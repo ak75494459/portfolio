@@ -22,6 +22,7 @@ import SEO from "../data/seo";
 // import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
+import Skills from "./Skills";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -169,6 +170,7 @@ const Homepage = () => {
 						<div className="homepage-projects">
 							<AllProjects />
 						</div>
+						<Skills />
 
 						<div className="homepage-after-title">
 							{/* <div className="homepage-articles">
